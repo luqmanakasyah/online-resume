@@ -6,7 +6,7 @@ basic:
     path: profile.png
 
 contact:
-  location:
+  location: Singapore
   email: luqman.akasyah@outlook.com
   phone: +65 9226 6514
   website:
@@ -18,7 +18,7 @@ contact:
   bitbucket:
   googlescholar:
   researchgate:
-  linkedin: linkedin.com/in/luqmanakasyah
+  linkedin: luqmanakasyah
   medium:
   twitter:
   stackoverflow:
@@ -29,12 +29,17 @@ profile:
   display: true
   title: Summary
   details: |
-    It's your career profile, you can wirte markdown format text.
-    + First
+    + Highly quantitative physics PhD graduate with expertise in mathematical modeling of plasma systems and spectral data analysis. Practical experience in using Python for data analysis, visualisation, and developing machine learning pipelines.
     + Second
 
-    ...
-
+awards:
+  display: true
+  title: Awards
+  items:
+    - company: GlobalFoundries Singapore
+      details: |
+        **Engineering Award** for _The Development of a Predictive Maintenance Model for Photoresist Stripping Equipment_
+        
 experiences:
   display: true
   title: Experiences
@@ -167,10 +172,12 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
-      level: Native
     - idiom: English
-      level: Professional
+      level: Native
+    - idiom: Malay
+      level: Proficient
+    - idiom: Mandarin
+      level: Elementary
 
 interests:
   display: true
@@ -182,7 +189,7 @@ interests:
       link:
 
 evaluation:
-  display: true
+  display: false
   title: Self-evaluation
   details: |
     Here is my self evaluation.
@@ -192,7 +199,7 @@ evaluation:
     ...
 
 footer:
-  display: true
+  display: false
 
 close: >
   Sorry, my resume has been hidden.
